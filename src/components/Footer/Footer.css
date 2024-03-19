@@ -1,0 +1,150 @@
+.footer-container {
+  background-color: #f0f0f0;
+  color: rgb(78, 78, 78);
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+.footer-column {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-container h4 {
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+.footer-menu-items,
+.footer-copyright-lists {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+.footer-menu-items li {
+  margin-bottom: 5px;
+}
+
+.footer-menu-heding,
+.footer-menu-items,
+.footer-copyright-lists {
+  text-align: left;
+}
+
+.social-icons img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.last-column {
+  flex-grow: 2;
+}
+
+.footer-menu-heding {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.icon-group {
+  display: flex;
+  font-size: 24px;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.icon-group i {
+  color: #333;
+  cursor: pointer;
+}
+
+.subscribe-section {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.subscribe-input {
+  padding: 15px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.subscribe-button {
+  padding: 15px 28px;
+  background-color: #303030;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-menu-heding.signup {
+  margin-bottom: -15px;
+}
+
+.footer-policy {
+  font-size: 14px;
+  text-align: left;
+}
+
+.footer-copyright {
+  text-align: left;
+  flex: 2;
+  font-size: 14px;
+}
+
+.footer-copyright-lists {
+  display: flex;
+}
+.footer-copyright-lists li {
+  margin-right: 2px;
+  font-size: 16px;
+}
+.footer-copyright-lists li a {
+  color: rgb(78, 78, 78);
+}
+
+.footer-column-payment {
+  flex: 1;
+  text-align: left;
+  margin-left: 280px;
+}
+
+.footer-column-payment span {
+  margin-right: 10px;
+}
+
+/* footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* div {
+  flex: 1;
+  text-align: center;
+}
+
+div:last-child {
+  flex: 2;
+}
+h4 {
+  margin-bottom: 10px;
+}
+*/

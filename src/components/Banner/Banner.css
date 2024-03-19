@@ -1,0 +1,22 @@
+.banner {
+  background: linear-gradient(to right, #170000, #8b0000);
+  margin-top: 30px;
+  padding: 20px;
+  text-align: left;
+  font-size: 16px;
+  color: white;
+  border-bottom: 1px solid #ccc;
+  width: 83vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.banner-para {
+  color: #ccc;
+}
+.banner-read-more {
+  margin-left: 5px;
+  color: #ffffff;
+}
